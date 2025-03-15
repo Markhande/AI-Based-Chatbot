@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         etInput = findViewById(R.id.etInput)
         btnSend = findViewById(R.id.btnSend)
 
-        openAIService = OpenAIService("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")
+        openAIService = OpenAIService("Past your chatGPT api")
 
         btnSend.setOnClickListener {
             val inputText = etInput.text.toString().trim()
